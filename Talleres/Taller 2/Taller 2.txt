@@ -1,0 +1,20 @@
+/* Taller 2 */
+
+/* 1- Hacer el complemento a dos de: -11, -5, -4, -8. */
+Respuesta:
+
+	a. -11 => 11110101
+	b. -5  => 11111011
+	c. -4  => 11111100
+	d. -8  => 11111000
+
+/* 2- Hacer el registro de: h=(y+z)-(j+k)+(y+n)
+Respuesta:
+	
+	%O1=(%L0+%L1)-(%L2+%L3)+(%L0+%L4)
+	
+	Add %L0 %L1 %L1
+	Add %L2 %L3 %L2
+	Add %L0 %L4 %L4
+	Sub %L1 %L2 %L1
+	Add %L1 %L4 %O1
