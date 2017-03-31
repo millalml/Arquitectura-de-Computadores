@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Xilinx/14.7/ISE_DS/David Escamilla/flipfloptipod/tbffd_isim_beh.exe" -prj "C:/Xilinx/14.7/ISE_DS/David Escamilla/flipfloptipod/tbffd_beh.prj" "work.tbffd" 

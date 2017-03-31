@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Xilinx/14.7/ISE_DS/David Escamilla/flipfloptipod/flipfloptipod.xst" -ofn "C:/Xilinx/14.7/ISE_DS/David Escamilla/flipfloptipod/flipfloptipod.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/14.7/ISE_DS/David Escamilla/flipfloptipod/flipfloptipod.xst" -ofn "C:/Xilinx/14.7/ISE_DS/David Escamilla/flipfloptipod/flipfloptipod.syr" 

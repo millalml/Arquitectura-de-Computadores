@@ -1,1 +1,9 @@
-V3 0
+V3 3
+FL "C:/Xilinx/14.7/ISE_DS/David Escamilla/flipfloptipod/flipfloptipod.vhd" 2017/03/31.12:52:41 P.20131013
+EN work/ffd 1490984535 \
+      FL "C:/Xilinx/14.7/ISE_DS/David Escamilla/flipfloptipod/flipfloptipod.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ffd/Behavioral 1490984536 \
+      FL "C:/Xilinx/14.7/ISE_DS/David Escamilla/flipfloptipod/flipfloptipod.vhd" \
+      EN work/ffd 1490984535
