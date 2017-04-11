@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "G:/Arquitectura Computadores/sparcv8/IntructionMemory.xst" -ofn "G:/Arquitectura Computadores/sparcv8/IntructionMemory.syr" 
+xst -intstyle ise -ifn "G:/Arquitectura Computadores/sparcv8/IntructionMemory.xst" -ofn "G:/Arquitectura Computadores/sparcv8/IntructionMemory.syr" 
+xst -intstyle ise -ifn "G:/Arquitectura Computadores/sparcv8/IntructionMemory.xst" -ofn "G:/Arquitectura Computadores/sparcv8/IntructionMemory.syr" 
+xst -intstyle ise -ifn "G:/Arquitectura Computadores/sparcv8/IntructionMemory.xst" -ofn "G:/Arquitectura Computadores/sparcv8/IntructionMemory.syr" 
+xst -intstyle ise -ifn "G:/Arquitectura Computadores/sparcv8/IntructionMemory.xst" -ofn "G:/Arquitectura Computadores/sparcv8/IntructionMemory.syr" 
+xst -intstyle ise -ifn "G:/Arquitectura Computadores/sparcv8/IntructionMemory.xst" -ofn "G:/Arquitectura Computadores/sparcv8/IntructionMemory.syr" 
+xst -intstyle ise -ifn "G:/Arquitectura Computadores/sparcv8/IntructionMemory.xst" -ofn "G:/Arquitectura Computadores/sparcv8/IntructionMemory.syr" 
+vhdtdtfi -prj sparcv8 -o "E:/Arquitectura Computadores/sparcv8/IntructionMemory.vhi" -module IntructionMemory -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work IntructionMemory.vhd 
