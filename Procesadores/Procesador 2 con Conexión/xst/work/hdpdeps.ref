@@ -1,0 +1,70 @@
+V3 50
+FL "C:/Users/utp/Desktop/Arquitectura Computadores/sparcv8/nPC.vhd" 2017/04/04.19:54:02 P.20131013
+FL "E:/Arquitectura Computadores/sparcv8/ALU.vhd" 2017/04/10.11:56:02 P.20131013
+FL "E:/Arquitectura Computadores/sparcv8/IntructionMemory.vhd" 2017/04/10.14:17:38 P.20131013
+FL "E:/Arquitectura Computadores/sparcv8/nPC.vhd" 2017/04/11.18:47:06 P.20131013
+FL "E:/Arquitectura Computadores/sparcv8/PC.vhd" 2017/04/10.21:06:18 P.20131013
+FL "E:/Arquitectura Computadores/sparcv8/RegisterFile.vhd" 2017/04/10.12:41:46 P.20131013
+FL "E:/Arquitectura Computadores/sparcv8/SEU.vhd" 2017/04/10.12:04:32 P.20131013
+FL "E:/Arquitectura Computadores/sparcv8/Sumador.vhd" 2017/04/10.12:03:12 P.20131013
+FL "E:/Arquitectura Computadores/sparcv8/UC.vhd" 2017/04/11.19:22:00 P.20131013
+FL "G:/Arquitectura Computadores/Procesador2/ALU.vhd" 2017/04/10.11:56:02 P.20131013
+FL "G:/Arquitectura Computadores/Procesador2/IntructionMemory.vhd" 2017/04/10.14:17:38 P.20131013
+FL "G:/Arquitectura Computadores/sparcv8/ALU.vhd" 2017/04/10.11:56:02 P.20131013
+EN work/ALU 1492095965 FL "G:/Arquitectura Computadores/sparcv8/ALU.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ALU/ArqAlu 1492095966 \
+      FL "G:/Arquitectura Computadores/sparcv8/ALU.vhd" EN work/ALU 1492095965
+FL "G:/Arquitectura Computadores/sparcv8/IntructionMemory.vhd" 2017/04/13.09:37:50 P.20131013
+EN work/IntructionMemory 1492095955 \
+      FL "G:/Arquitectura Computadores/sparcv8/IntructionMemory.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB std/TEXTIO 1381692176
+AR work/IntructionMemory/ArqIM 1492095956 \
+      FL "G:/Arquitectura Computadores/sparcv8/IntructionMemory.vhd" \
+      EN work/IntructionMemory 1492095955
+FL "G:/Arquitectura Computadores/sparcv8/Mux.vhd" 2017/04/10.12:11:18 P.20131013
+EN work/Mux 1492095961 FL "G:/Arquitectura Computadores/sparcv8/Mux.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Mux/ArqMux 1492095962 \
+      FL "G:/Arquitectura Computadores/sparcv8/Mux.vhd" EN work/Mux 1492095961
+FL "G:/Arquitectura Computadores/sparcv8/nPC.vhd" 2017/04/11.18:47:06 P.20131013
+EN work/nPC 1492095951 FL "G:/Arquitectura Computadores/sparcv8/nPC.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/nPC/ArqnPC 1492095952 \
+      FL "G:/Arquitectura Computadores/sparcv8/nPC.vhd" EN work/nPC 1492095951
+FL "G:/Arquitectura Computadores/sparcv8/PC.vhd" 2017/04/10.21:06:18 P.20131013
+EN work/PC 1492095953 FL "G:/Arquitectura Computadores/sparcv8/PC.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/PC/ArqPC 1492095954 \
+      FL "G:/Arquitectura Computadores/sparcv8/PC.vhd" EN work/PC 1492095953
+FL "G:/Arquitectura Computadores/sparcv8/Procesador2.vhd" 2017/04/13.09:06:02 P.20131013
+EN work/Procesador2 1492095967 \
+      FL "G:/Arquitectura Computadores/sparcv8/Procesador2.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Procesador2/Arq_Procesador2 1492095968 \
+      FL "G:/Arquitectura Computadores/sparcv8/Procesador2.vhd" \
+      EN work/Procesador2 1492095967 CP Sumador CP nPC CP PC CP IntructionMemory \
+      CP UC CP RegisterFile CP Mux CP SEU CP ALU
+FL "G:/Arquitectura Computadores/sparcv8/RegisterFile.vhd" 2017/04/10.18:58:08 P.20131013
+EN work/RegisterFile 1492095959 \
+      FL "G:/Arquitectura Computadores/sparcv8/RegisterFile.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/RegisterFile/ArqRF 1492095960 \
+      FL "G:/Arquitectura Computadores/sparcv8/RegisterFile.vhd" \
+      EN work/RegisterFile 1492095959
+FL "G:/Arquitectura Computadores/sparcv8/SEU.vhd" 2017/04/10.19:39:54 P.20131013
+EN work/SEU 1492095963 FL "G:/Arquitectura Computadores/sparcv8/SEU.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/SEU/ArqSEU 1492095964 \
+      FL "G:/Arquitectura Computadores/sparcv8/SEU.vhd" EN work/SEU 1492095963
+FL "G:/Arquitectura Computadores/sparcv8/Sumador.vhd" 2017/04/10.12:03:12 P.20131013
+EN work/Sumador 1492095949 FL "G:/Arquitectura Computadores/sparcv8/Sumador.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Sumador/ArqSumador 1492095950 \
+      FL "G:/Arquitectura Computadores/sparcv8/Sumador.vhd" EN work/Sumador 1492095949
+FL "G:/Arquitectura Computadores/sparcv8/UC.vhd" 2017/04/11.19:22:00 P.20131013
+EN work/UC 1492095957 FL "G:/Arquitectura Computadores/sparcv8/UC.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/UC/ArqUC 1492095958 \
+      FL "G:/Arquitectura Computadores/sparcv8/UC.vhd" EN work/UC 1492095957

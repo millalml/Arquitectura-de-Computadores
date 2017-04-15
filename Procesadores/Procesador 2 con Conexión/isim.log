@@ -1,0 +1,9 @@
+ISim log file
+Running: D:\Usuarios\Fray Martin\Documents\UTP\Arquitectura de Computadores\Procesadores\Procesador2 Con Conexiones\sparcv8\Procesador2_TB_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/Usuarios/Fray Martin/Documents/UTP/Arquitectura de Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/Procesador2_TB_isim_beh.wdb 
+FATAL ERROR: PrivateChannel: Error connecting to server socket
+Time resolution is 1 fs
+# onerror resume
+# wave add /
+No active Database
+# run 1000 ns
+Unable to execute live simulation command.

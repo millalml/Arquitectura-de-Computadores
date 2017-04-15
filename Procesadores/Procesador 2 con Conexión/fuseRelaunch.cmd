@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Usuarios/Fray Martin/Documents/UTP/Arquitectura de Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/Procesador2_TB_isim_beh.exe" -prj "D:/Usuarios/Fray Martin/Documents/UTP/Arquitectura de Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/Procesador2_TB_beh.prj" "work.Procesador2_TB" 

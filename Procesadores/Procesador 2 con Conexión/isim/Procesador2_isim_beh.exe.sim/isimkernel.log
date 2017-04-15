@@ -1,0 +1,5 @@
+Command line:
+   Procesador2_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49779
