@@ -1,5 +1,5 @@
-set -tmpdir "E:/Arquitectura Computadores/sparcv8/xst/projnav.tmp"
-set -xsthdpdir "E:/Arquitectura Computadores/sparcv8/xst"
+set -tmpdir "G:/Arquitectura Computadores/sparcv8/xst/projnav.tmp"
+set -xsthdpdir "G:/Arquitectura Computadores/sparcv8/xst"
 elaborate
 -ifn RegisterFile.prj
 -ifmt mixed

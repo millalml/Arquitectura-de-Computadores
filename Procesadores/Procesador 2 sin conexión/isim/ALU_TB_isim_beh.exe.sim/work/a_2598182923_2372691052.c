@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "E:/Arquitectura Computadores/sparcv8/ALU_TB.vhd";
+static const char *ng0 = "G:/Arquitectura Computadores/sparcv8/ALU_TB.vhd";
 
 
 

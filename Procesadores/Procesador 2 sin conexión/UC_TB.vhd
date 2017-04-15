@@ -70,7 +70,7 @@ BEGIN
    stim_proc: process
    begin
 		op <= "10";
- 		op3 <= "000100";
+ 		op3 <= "000111";
 		
       -- insert stimulus here 
 

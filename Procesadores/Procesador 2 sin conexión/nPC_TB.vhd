@@ -91,7 +91,7 @@ BEGIN
 		
 		wait for 100 ns;
 	   Din <= x"00000101";
-		
+		reset<='1';
 		wait for 100 ns;
 	   Din <= x"00001001";
      

@@ -72,9 +72,9 @@ BEGIN
    -- Stimulus process
    stim_proc: process
    begin		
-      Rs1in <= "00000000000000000000000000000100";
+      Rs1in <= "00000000000000000000000000000010";
 		Mux_in <= "00000000000000000000000000000001";
-   	ALU_op <="000010";
+   	ALU_op <="011000";
 
       wait;
    end process;

@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "E:/Arquitectura Computadores/sparcv8/RegisterFile.vhd";
+static const char *ng0 = "G:/Arquitectura Computadores/sparcv8/RegisterFile.vhd";
 extern char *IEEE_P_3620187407;
 
 unsigned char ieee_p_3620187407_sub_4042748798_3965413181(char *, char *, char *, char *, char *);

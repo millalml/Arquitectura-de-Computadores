@@ -39,18 +39,16 @@ end nPC;
 architecture ArqnPC of nPC is
 
 begin
-
-process (Din, reset, clk)
-
-begin
-   if clk'event and clk='1' then  
-      if reset='1' then   
-         Dout <= x"00000000";
-      else
-         Dout <= Din;
-      end if;
-   end if;
-end process;					
+		process(clk)
+			begin
+				if (rising_edge(clk))then
+					if(reset = '1')then
+						Dout <= (others => '0');
+					else
+						Dout <= Din;
+					end if;
+				end if;
+		end process;				
 
 end ArqnPC;
 

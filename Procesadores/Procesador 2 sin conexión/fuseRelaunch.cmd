@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "G:/Arquitectura Computadores/sparcv8/UC_TB_isim_beh.exe" -prj "G:/Arquitectura Computadores/sparcv8/UC_TB_beh.prj" "work.UC_TB" 
+-intstyle "ise" -incremental -o "G:/Arquitectura Computadores/sparcv8/nPC_TB_isim_beh.exe" -prj "G:/Arquitectura Computadores/sparcv8/nPC_TB_beh.prj" "work.nPC_TB" 

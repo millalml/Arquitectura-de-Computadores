@@ -75,10 +75,6 @@ begin
 					UCout <= "000000";
 				  
 				end case;
-				
-			else
-			
-				UCout <= "111111";
 
 			end if; 
 

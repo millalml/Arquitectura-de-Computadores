@@ -22,82 +22,71 @@
 #define alloca _alloca
 #endif
 static const char *ng0 = "G:/Arquitectura Computadores/sparcv8/nPC.vhd";
+extern char *IEEE_P_2592010699;
 
+unsigned char ieee_p_2592010699_sub_1744673427_503743352(char *, char *, unsigned int , unsigned int );
 
 
 static void work_a_1074805832_4239254666_p_0(char *t0)
 {
-    unsigned char t1;
-    char *t2;
-    unsigned char t3;
+    char *t1;
+    unsigned char t2;
+    char *t3;
     char *t4;
-    char *t5;
+    unsigned char t5;
     unsigned char t6;
-    unsigned char t7;
+    char *t7;
     char *t8;
-    unsigned char t9;
-    unsigned char t10;
+    char *t9;
+    char *t10;
     char *t11;
     char *t12;
-    char *t13;
-    char *t14;
-    char *t15;
-    char *t16;
 
-LAB0:    xsi_set_current_line(46, ng0);
-    t2 = (t0 + 1312U);
-    t3 = xsi_signal_has_event(t2);
-    if (t3 == 1)
-        goto LAB5;
-
-LAB6:    t1 = (unsigned char)0;
-
-LAB7:    if (t1 != 0)
+LAB0:    xsi_set_current_line(44, ng0);
+    t1 = (t0 + 1312U);
+    t2 = ieee_p_2592010699_sub_1744673427_503743352(IEEE_P_2592010699, t1, 0U, 0U);
+    if (t2 != 0)
         goto LAB2;
 
 LAB4:
-LAB3:    t2 = (t0 + 2992);
-    *((int *)t2) = 1;
+LAB3:    t1 = (t0 + 2992);
+    *((int *)t1) = 1;
 
 LAB1:    return;
-LAB2:    xsi_set_current_line(47, ng0);
-    t4 = (t0 + 1192U);
-    t8 = *((char **)t4);
-    t9 = *((unsigned char *)t8);
-    t10 = (t9 == (unsigned char)3);
-    if (t10 != 0)
-        goto LAB8;
+LAB2:    xsi_set_current_line(45, ng0);
+    t3 = (t0 + 1192U);
+    t4 = *((char **)t3);
+    t5 = *((unsigned char *)t4);
+    t6 = (t5 == (unsigned char)3);
+    if (t6 != 0)
+        goto LAB5;
 
-LAB10:    xsi_set_current_line(50, ng0);
-    t2 = (t0 + 1032U);
-    t4 = *((char **)t2);
-    t2 = (t0 + 3072);
-    t5 = (t2 + 56U);
-    t8 = *((char **)t5);
-    t11 = (t8 + 56U);
+LAB7:    xsi_set_current_line(48, ng0);
+    t1 = (t0 + 1032U);
+    t3 = *((char **)t1);
+    t1 = (t0 + 3072);
+    t4 = (t1 + 56U);
+    t7 = *((char **)t4);
+    t8 = (t7 + 56U);
+    t9 = *((char **)t8);
+    memcpy(t9, t3, 32U);
+    xsi_driver_first_trans_fast_port(t1);
+
+LAB6:    goto LAB3;
+
+LAB5:    xsi_set_current_line(46, ng0);
+    t3 = xsi_get_transient_memory(32U);
+    memset(t3, 0, 32U);
+    t7 = t3;
+    memset(t7, (unsigned char)2, 32U);
+    t8 = (t0 + 3072);
+    t9 = (t8 + 56U);
+    t10 = *((char **)t9);
+    t11 = (t10 + 56U);
     t12 = *((char **)t11);
-    memcpy(t12, t4, 32U);
-    xsi_driver_first_trans_fast_port(t2);
-
-LAB9:    goto LAB3;
-
-LAB5:    t4 = (t0 + 1352U);
-    t5 = *((char **)t4);
-    t6 = *((unsigned char *)t5);
-    t7 = (t6 == (unsigned char)3);
-    t1 = t7;
-    goto LAB7;
-
-LAB8:    xsi_set_current_line(48, ng0);
-    t4 = (t0 + 4738);
-    t12 = (t0 + 3072);
-    t13 = (t12 + 56U);
-    t14 = *((char **)t13);
-    t15 = (t14 + 56U);
-    t16 = *((char **)t15);
-    memcpy(t16, t4, 32U);
-    xsi_driver_first_trans_fast_port(t12);
-    goto LAB9;
+    memcpy(t12, t3, 32U);
+    xsi_driver_first_trans_fast_port(t8);
+    goto LAB6;
 
 }
 
