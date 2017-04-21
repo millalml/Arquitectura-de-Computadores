@@ -8,7 +8,9 @@
 -- Project Name: 
 -- Target Devices: 
 -- Tool versions: 
--- Description: 
+-- Description: Permite conocer qué tipo de formato estoy utilizando
+--	al igual de qué tipo de operación estoy realizando.
+--	Identifica la instrucción y operación a realizar, mira el op y el op3.
 --
 -- Dependencies: 
 --

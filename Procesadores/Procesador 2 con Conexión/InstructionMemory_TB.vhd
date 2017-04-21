@@ -74,7 +74,7 @@ BEGIN
       -- hold reset state for 100 ns.
       wait for 100 ns;	
 		reset <='0';
-		PCint <= "00000000000000000000000000000010";
+		PCint <= "00000000000000000000000000000000";
 
       -- insert stimulus here 
 

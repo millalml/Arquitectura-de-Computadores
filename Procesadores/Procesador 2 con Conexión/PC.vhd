@@ -8,7 +8,8 @@
 -- Project Name: 
 -- Target Devices: 
 -- Tool versions: 
--- Description: 
+-- Description: Program Counter.
+--	Registro de 32 bits que me da la posición actual de la memoria.
 --
 -- Dependencies: 
 --

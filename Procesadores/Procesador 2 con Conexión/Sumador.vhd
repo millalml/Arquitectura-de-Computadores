@@ -8,7 +8,8 @@
 -- Project Name: 
 -- Target Devices: 
 -- Tool versions: 
--- Description: 
+-- Description: Coge la dirección de mi posición actual y le suma 4.
+--	Le suma 4 para pasar a la siguiente instrucción.
 --
 -- Dependencies: 
 --

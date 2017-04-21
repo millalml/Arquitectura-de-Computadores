@@ -8,8 +8,9 @@
 -- Project Name: 
 -- Target Devices: 
 -- Tool versions: 
--- Description: 
---
+-- Description: Unidad de Extension de Signos.
+--	Me permite completar hasta 13 bits para inmediatos. 
+-- Convierte los 13 bits en 32 bits. 0=no lectura, 1=hago lectura.
 -- Dependencies: 
 --
 -- Revision: 

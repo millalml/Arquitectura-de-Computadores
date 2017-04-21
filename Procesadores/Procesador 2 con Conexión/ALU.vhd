@@ -8,7 +8,9 @@
 -- Project Name: 
 -- Target Devices: 
 -- Tool versions: 
--- Description: 
+-- Description: Unidad Aritmético-Lógica.
+--	Recibe el contenido del registro fuente 1 y fuente 2 en 32 bits.
+--	Me recibe en 32 bits, ya que me recibe el contenido de RF (Archivo Registro).
 --
 -- Dependencies: 
 --
@@ -33,8 +35,8 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 entity ALU is
     Port ( Rs1in : in  STD_LOGIC_VECTOR (31 downto 0);
            Mux_in : in  STD_LOGIC_VECTOR (31 downto 0);
-           ALU_op : in  STD_LOGIC_VECTOR (5 downto 0);
-           Alu_out : out  STD_LOGIC_VECTOR (31 downto 0));
+           ALU_op : in  STD_LOGIC_VECTOR (5 downto 0); -- Reasignación de los valores, para saber más adelante que voy hacer.
+           Alu_out : out  STD_LOGIC_VECTOR (31 downto 0)); -- Es diferente a %g0, voy y lo escribo, lo guardo en el RF, de lo contrario no lo guardo.
 end ALU;
 
 architecture ArqAlu of ALU is

@@ -8,7 +8,10 @@
 -- Project Name: 
 -- Target Devices: 
 -- Tool versions: 
--- Description: 
+-- Description: Memoria de Instrucciones (tiene lenguaje binario).
+--	Lee un archivo de texto donde se pone el lenguaje de máquina, lo lee
+--	y realiza la instrucción.
+--	Guardo el programa de 1 y 0. Mira las direcciones, saca la instrucción de 32 bits.
 --
 -- Dependencies: 
 --
@@ -55,7 +58,7 @@ architecture ArqIM of IntructionMemory is
 			end loop;
 		return temp_mem;
 	end function;
-	signal instructions : rom_type := InitRomFromFile("programa1.data");
+	signal instructions : rom_type := InitRomFromFile("parcial2.data");
 
 begin
 

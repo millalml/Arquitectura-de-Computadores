@@ -8,7 +8,7 @@
 -- Project Name: 
 -- Target Devices: 
 -- Tool versions: 
--- Description: 
+-- Description: Almaceno los registros que voy a utilizar.
 --
 -- Dependencies: 
 --
@@ -33,7 +33,7 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 entity RegisterFile is
     Port ( Rs1 : in  STD_LOGIC_VECTOR (4 downto 0);
            Rs2 : in  STD_LOGIC_VECTOR (4 downto 0);
-           Rd : in  STD_LOGIC_VECTOR (4 downto 0);
+           Rd : in  STD_LOGIC_VECTOR (4 downto 0); -- Me indica la dirección del contenido. Envió el contenido del RS1 Y RS2.
            DWR : in  STD_LOGIC_VECTOR (31 downto 0);
            reset : in  STD_LOGIC;
            Rs1out : out  STD_LOGIC_VECTOR (31 downto 0);

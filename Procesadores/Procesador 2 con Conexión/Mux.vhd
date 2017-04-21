@@ -8,7 +8,9 @@
 -- Project Name: 
 -- Target Devices: 
 -- Tool versions: 
--- Description: 
+-- Description: Permite el paso de un cero y un uno.
+--	Es como un switch, enciende o apaga.
+--	Permite el paso del contenido o de los inmediatos.
 --
 -- Dependencies: 
 --

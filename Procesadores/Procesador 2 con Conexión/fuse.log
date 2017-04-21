@@ -1,19 +1,19 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o D:/Usuarios/Fray Martin/Documents/UTP/Arquitectura de Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/Procesador2_TB_isim_beh.exe -prj D:/Usuarios/Fray Martin/Documents/UTP/Arquitectura de Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/Procesador2_TB_beh.prj work.Procesador2_TB 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o E:/Arquitectura Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/Procesador2_TB_isim_beh.exe -prj E:/Arquitectura Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/Procesador2_TB_beh.prj work.Procesador2_TB 
 ISim P.20131013 (signature 0x7708f090)
-Number of CPUs detected in this system: 8
-Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Parsing VHDL file "D:/Usuarios/Fray Martin/Documents/UTP/Arquitectura de Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/UC.vhd" into library work
-Parsing VHDL file "D:/Usuarios/Fray Martin/Documents/UTP/Arquitectura de Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/Sumador.vhd" into library work
-Parsing VHDL file "D:/Usuarios/Fray Martin/Documents/UTP/Arquitectura de Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/SEU.vhd" into library work
-Parsing VHDL file "D:/Usuarios/Fray Martin/Documents/UTP/Arquitectura de Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/RegisterFile.vhd" into library work
-Parsing VHDL file "D:/Usuarios/Fray Martin/Documents/UTP/Arquitectura de Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/PC.vhd" into library work
-Parsing VHDL file "D:/Usuarios/Fray Martin/Documents/UTP/Arquitectura de Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/nPC.vhd" into library work
-Parsing VHDL file "D:/Usuarios/Fray Martin/Documents/UTP/Arquitectura de Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/Mux.vhd" into library work
-Parsing VHDL file "D:/Usuarios/Fray Martin/Documents/UTP/Arquitectura de Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/IntructionMemory.vhd" into library work
-Parsing VHDL file "D:/Usuarios/Fray Martin/Documents/UTP/Arquitectura de Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/ALU.vhd" into library work
-Parsing VHDL file "D:/Usuarios/Fray Martin/Documents/UTP/Arquitectura de Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/Procesador2.vhd" into library work
-Parsing VHDL file "D:/Usuarios/Fray Martin/Documents/UTP/Arquitectura de Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/Procesador2_TB.vhd" into library work
+Parsing VHDL file "E:/Arquitectura Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/UC.vhd" into library work
+Parsing VHDL file "E:/Arquitectura Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/Sumador.vhd" into library work
+Parsing VHDL file "E:/Arquitectura Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/SEU.vhd" into library work
+Parsing VHDL file "E:/Arquitectura Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/RegisterFile.vhd" into library work
+Parsing VHDL file "E:/Arquitectura Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/PC.vhd" into library work
+Parsing VHDL file "E:/Arquitectura Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/nPC.vhd" into library work
+Parsing VHDL file "E:/Arquitectura Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/Mux.vhd" into library work
+Parsing VHDL file "E:/Arquitectura Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/IntructionMemory.vhd" into library work
+Parsing VHDL file "E:/Arquitectura Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/ALU.vhd" into library work
+Parsing VHDL file "E:/Arquitectura Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/Procesador2.vhd" into library work
+Parsing VHDL file "E:/Arquitectura Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/Procesador2_TB.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
@@ -33,8 +33,7 @@ Compiling architecture arqalu of entity ALU [alu_default]
 Compiling architecture arq_procesador2 of entity Procesador2 [procesador2_default]
 Compiling architecture behavior of entity procesador2_tb
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
 Compiled 26 VHDL Units
-Built simulation executable D:/Usuarios/Fray Martin/Documents/UTP/Arquitectura de Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/Procesador2_TB_isim_beh.exe
-Fuse Memory Usage: 34636 KB
-Fuse CPU Usage: 639 ms
+Built simulation executable E:/Arquitectura Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/Procesador2_TB_isim_beh.exe
+Fuse Memory Usage: 34008 KB
+Fuse CPU Usage: 811 ms

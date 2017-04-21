@@ -43,7 +43,9 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="IntructionMemory.ngc"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="IntructionMemory.ngr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="IntructionMemory.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="IntructionMemory.spl"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="IntructionMemory.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="IntructionMemory.sym" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="IntructionMemory.syr"/>
     <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="IntructionMemory.vhi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="IntructionMemory.xst"/>
@@ -184,7 +186,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1492094605" xil_pn:in_ck="-8015680103451166873" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1492094605">
+    <transform xil_pn:end_ts="1492560691" xil_pn:in_ck="-8015680103451166873" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1492560691">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ALU.vhd"/>
@@ -220,7 +222,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1492094610" xil_pn:in_ck="-8015680103451166873" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1492094610">
+    <transform xil_pn:end_ts="1492560691" xil_pn:in_ck="-8015680103451166873" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1492560691">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ALU.vhd"/>
@@ -244,7 +246,7 @@
       <outfile xil_pn:name="nPC.vhd"/>
       <outfile xil_pn:name="nPC_TB.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1492287396" xil_pn:in_ck="-8015680103451166873" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7868175217242699040" xil_pn:start_ts="1492287391">
+    <transform xil_pn:end_ts="1492733250" xil_pn:in_ck="-8015680103451166873" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7868175217242699040" xil_pn:start_ts="1492733236">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -256,7 +258,7 @@
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1492287396" xil_pn:in_ck="-8421977338885654449" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-2097175111952264947" xil_pn:start_ts="1492287396">
+    <transform xil_pn:end_ts="1492733612" xil_pn:in_ck="-8421977338885654449" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-2097175111952264947" xil_pn:start_ts="1492733611">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -297,7 +299,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name=".lso"/>
       <outfile xil_pn:name="ALU.ngr"/>

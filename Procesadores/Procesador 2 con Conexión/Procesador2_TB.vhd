@@ -56,7 +56,7 @@ ARCHITECTURE behavior OF Procesador2_TB IS
    signal ResultadoProcesador : std_logic_vector(31 downto 0);
 
    -- Clock period definitions
-   constant clk_period : time := 10 ns;
+   constant clk_period : time := 20 ns;
  
 BEGIN
  

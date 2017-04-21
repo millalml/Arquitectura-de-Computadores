@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "D:/Usuarios/Fray Martin/Documents/UTP/Arquitectura de Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/Procesador2_TB.vhd";
+static const char *ng0 = "E:/Arquitectura Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/Procesador2_TB.vhd";
 
 
 

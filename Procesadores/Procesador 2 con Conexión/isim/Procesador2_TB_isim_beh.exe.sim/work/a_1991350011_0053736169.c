@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "D:/Usuarios/Fray Martin/Documents/UTP/Arquitectura de Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/PC.vhd";
+static const char *ng0 = "E:/Arquitectura Computadores/Procesadores/Procesador2 Con Conexiones/sparcv8/PC.vhd";
 extern char *IEEE_P_2592010699;
 
 unsigned char ieee_p_2592010699_sub_1744673427_503743352(char *, char *, unsigned int , unsigned int );
@@ -42,7 +42,7 @@ static void work_a_1991350011_0053736169_p_0(char *t0)
     char *t11;
     char *t12;
 
-LAB0:    xsi_set_current_line(44, ng0);
+LAB0:    xsi_set_current_line(45, ng0);
     t1 = (t0 + 1312U);
     t2 = ieee_p_2592010699_sub_1744673427_503743352(IEEE_P_2592010699, t1, 0U, 0U);
     if (t2 != 0)
@@ -53,7 +53,7 @@ LAB3:    t1 = (t0 + 2992);
     *((int *)t1) = 1;
 
 LAB1:    return;
-LAB2:    xsi_set_current_line(45, ng0);
+LAB2:    xsi_set_current_line(46, ng0);
     t3 = (t0 + 1192U);
     t4 = *((char **)t3);
     t5 = *((unsigned char *)t4);
@@ -61,7 +61,7 @@ LAB2:    xsi_set_current_line(45, ng0);
     if (t6 != 0)
         goto LAB5;
 
-LAB7:    xsi_set_current_line(48, ng0);
+LAB7:    xsi_set_current_line(49, ng0);
     t1 = (t0 + 1032U);
     t3 = *((char **)t1);
     t1 = (t0 + 3072);
@@ -74,7 +74,7 @@ LAB7:    xsi_set_current_line(48, ng0);
 
 LAB6:    goto LAB3;
 
-LAB5:    xsi_set_current_line(46, ng0);
+LAB5:    xsi_set_current_line(47, ng0);
     t3 = xsi_get_transient_memory(32U);
     memset(t3, 0, 32U);
     t7 = t3;
