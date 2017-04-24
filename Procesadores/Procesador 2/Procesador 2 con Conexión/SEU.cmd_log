@@ -1,0 +1,2 @@
+vhdtdtfi -prj sparcv8 -o "G:/Arquitectura Computadores/sparcv8/SEU.vhi" -module SEU -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work SEU.vhd 
+vhdtdtfi -prj sparcv8 -o "G:/Arquitectura Computadores/sparcv8/SEU.vhi" -module SEU -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work SEU.vhd 

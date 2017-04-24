@@ -1,0 +1,5 @@
+set -tmpdir "G:/Arquitectura Computadores/Procesadores/Procesador 3/sparcv8/xst/projnav.tmp"
+set -xsthdpdir "G:/Arquitectura Computadores/Procesadores/Procesador 3/sparcv8/xst"
+elaborate
+-ifn SEU.prj
+-ifmt mixed

@@ -1,0 +1,6 @@
+[Inputs]
+reset
+=PCint[31:0]=
+[Outputs]
+=IMout[31:0]=
+[BiDir]

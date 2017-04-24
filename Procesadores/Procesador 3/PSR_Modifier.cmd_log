@@ -1,0 +1,1 @@
+vhdtdtfi -prj sparcv8 -o "G:/Arquitectura Computadores/Procesadores/Procesador 3/sparcv8/PSR_Modifier.vhi" -module PSR_Modifier -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work PSR_Modifier.vhd 

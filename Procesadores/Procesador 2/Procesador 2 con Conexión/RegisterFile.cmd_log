@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "G:/Arquitectura Computadores/sparcv8/RegisterFile.xst" -ofn "G:/Arquitectura Computadores/sparcv8/RegisterFile.syr" 
+xst -intstyle ise -ifn "G:/Arquitectura Computadores/sparcv8/RegisterFile.xst" -ofn "G:/Arquitectura Computadores/sparcv8/RegisterFile.syr" 
+xst -intstyle ise -ifn "G:/Arquitectura Computadores/sparcv8/RegisterFile.xst" -ofn "G:/Arquitectura Computadores/sparcv8/RegisterFile.syr" 
+xst -intstyle ise -ifn "G:/Arquitectura Computadores/sparcv8/RegisterFile.xst" -ofn "G:/Arquitectura Computadores/sparcv8/RegisterFile.syr" 
+xst -intstyle ise -ifn "G:/Arquitectura Computadores/sparcv8/RegisterFile.xst" -ofn "G:/Arquitectura Computadores/sparcv8/RegisterFile.syr" 
+xst -intstyle ise -ifn "G:/Arquitectura Computadores/sparcv8/RegisterFile.xst" -ofn "G:/Arquitectura Computadores/sparcv8/RegisterFile.syr" 
+xst -intstyle ise -ifn "G:/Arquitectura Computadores/sparcv8/RegisterFile.xst" -ofn "G:/Arquitectura Computadores/sparcv8/RegisterFile.syr" 
+vhdtdtfi -prj sparcv8 -o "G:/Arquitectura Computadores/sparcv8/RegisterFile.vhi" -module RegisterFile -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work RegisterFile.vhd 

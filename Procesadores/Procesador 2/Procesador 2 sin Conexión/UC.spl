@@ -1,0 +1,6 @@
+[Inputs]
+=op[1:0]=
+=op3[5:0]=
+[Outputs]
+=UCout[5:0]=
+[BiDir]
