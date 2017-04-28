@@ -20,6 +20,7 @@
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
@@ -45,12 +46,12 @@ begin
 
 	if(imm13bits(12) = '1')then
 			SEUout(12 downto 0) <= imm13bits;
-			SEUout(31 downto 13) <= (others=>'1');
+			SEUout(31 downto 13) <= (others=>'1'); -- Completa los 32 bits con '1'.
 			
 		else
 		
 			SEUout(12 downto 0) <= imm13bits;
-			SEUout(31 downto 13) <= (others=>'0');
+			SEUout(31 downto 13) <= (others=>'0'); -- Completa los 32 bits con '0'.
 			
 	end if;
 	

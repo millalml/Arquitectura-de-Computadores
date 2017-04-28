@@ -42,8 +42,8 @@ end IntructionMemory;
 
 architecture ArqIM of IntructionMemory is
 
-	-- Variable que almacenara una matriz de 32*32.
-	type rom_type is array (0 to 31) of std_logic_vector (31 downto 0);
+	-- Variable que almacenara una matriz de 4*32.
+	type rom_type is array (0 to 3) of std_logic_vector (31 downto 0);
 	-- Funcion que devuelve los mismos resultados siempre y cuando se evalue con los mismos argumentos.
 	impure function InitRomFromFile (RomFileName : in string) return rom_type is
 		FILE RomFile: text open read_mode is RomFileName; -- Abre un archivo de tipo text en modo lectura.
@@ -58,7 +58,7 @@ architecture ArqIM of IntructionMemory is
 			end loop;
 		return temp_mem;
 	end function;
-	signal instructions : rom_type := InitRomFromFile("parcial2.data");
+	signal instructions : rom_type := InitRomFromFile("parcial3.data");
 
 begin
 

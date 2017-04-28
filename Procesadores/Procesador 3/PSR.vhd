@@ -8,7 +8,8 @@
 -- Project Name: 
 -- Target Devices: 
 -- Tool versions: 
--- Description: 
+-- Description: Recibe la señal del PSR Modifier (NZVC), la modifica y se la manda
+--					 a la ALU con el CARRY.
 --
 -- Dependencies: 
 --
@@ -30,10 +31,10 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity PSR is
-    Port ( clk : in  STD_LOGIC;
+    Port ( clk : in  STD_LOGIC; -- Se utiliza con los flancos de subida, es sincrono.
            reset : in  STD_LOGIC;
            icc_PSRM : in  STD_LOGIC_VECTOR (3 downto 0);
-           ALU_acarreo : out  STD_LOGIC);
+           ALU_acarreo : out  STD_LOGIC); -- Va a la ALU.
 end PSR;
 
 architecture Arq_PSR of PSR is

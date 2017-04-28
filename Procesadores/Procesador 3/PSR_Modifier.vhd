@@ -8,7 +8,10 @@
 -- Project Name: 
 -- Target Devices: 
 -- Tool versions: 
--- Description: 
+-- Description: Modifica los 4 bits que tengo en los registros de estado del procesador
+--					 PSR (Processor State Register). Modificando el resultado de la ALU.
+--					 Los bits del ICC (Integer Conditional Code) son: NZVC.
+--					 N=Negativo, Z=Cero, V=OverFlow, C=Carry.
 --
 -- Dependencies: 
 --
@@ -30,12 +33,12 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity PSR_Modifier is
-    Port ( cont_RS1 : in  STD_LOGIC_VECTOR (31 downto 0);
+    Port ( cont_RS1 : in  STD_LOGIC_VECTOR (31 downto 0); 
            cont_RS2 : in  STD_LOGIC_VECTOR (31 downto 0);
 			  reset : in  STD_LOGIC;
-           ALU_op : in  STD_LOGIC_VECTOR (5 downto 0);
-           Resultado_ALU : in  STD_LOGIC_VECTOR (31 downto 0);
-           icc_PSR : out  STD_LOGIC_VECTOR (3 downto 0));
+           ALU_op : in  STD_LOGIC_VECTOR (5 downto 0); -- Para saber que tipo de operacion se va a realizar.
+           Resultado_ALU : in  STD_LOGIC_VECTOR (31 downto 0); -- Para saber que bit se debe modificar, se lo asigna al Registro Destino.
+           icc_PSR : out  STD_LOGIC_VECTOR (3 downto 0)); -- Recibe el resultado de la ALU, para modificar los 4 bits NZVC.
 end PSR_Modifier;
 
 architecture Arq_PSRModifier of PSR_Modifier is
@@ -55,7 +58,7 @@ begin
 					else
 						icc_PSR(2) <= '0';
 					end if;
-					icc_PSR(1) <= '0'; -- Los operadores logicos no generan overflow ni carry
+					icc_PSR(1) <= '0'; -- Los operadores logicos no generan overflow ni carry.
 					icc_PSR(0) <= '0';
 				end if;
 				

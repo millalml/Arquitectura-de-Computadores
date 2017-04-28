@@ -21,8 +21,6 @@
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.STD_LOGIC_arith.ALL;
-use IEEE.STD_LOGIC_unsigned.ALL;
 
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
@@ -36,7 +34,7 @@ use IEEE.STD_LOGIC_unsigned.ALL;
 entity UC is
     Port ( op : in  STD_LOGIC_VECTOR (1 downto 0);
            op3 : in  STD_LOGIC_VECTOR (5 downto 0);
-           UCout : out  STD_LOGIC_VECTOR (5 downto 0) := (others => '0'));
+           UCout : out  STD_LOGIC_VECTOR (5 downto 0));
 end UC;
 
 architecture ArqUC of UC is
@@ -51,58 +49,58 @@ begin
 			
 				case op3 is
 		
-					when "000000" => -- ADD
+					when "000000" => -- ADD (Suma)
 					UCout <= "000001";
 					
-					when "010000" => -- ADDcc
+					when "010000" => -- ADDcc (Suma y modifica el ICC)
 					UCout <= "000010";
 					
-					when "011000" => -- ADDXcc
+					when "011000" => -- ADDXcc (Suma con Acarreo y modifica el ICC)
 					UCout <= "000011";
 			  
-					when "000100" => -- SUB
+					when "000100" => -- SUB (Resta)
 					UCout <= "000100";
 					
-					when "010100" => -- SUBcc
+					when "010100" => -- SUBcc (Resta y modifica el ICC)
 					UCout <= "000101";
 					
-					when "011100" => -- SUBXcc
+					when "011100" => -- SUBXcc (Resta con Acarreo y modifica el ICC)
 					UCout <= "000110";
 				  
-					when "000001" => -- AND
+					when "000001" => -- AND (Operacion AND)
 					UCout <= "000111";
 					
-					when "010001" => -- ANDcc
+					when "010001" => -- ANDcc (AND y modifica el ICC)
 					UCout <= "001000";
 			
-					when "000101" => -- ANDN
+					when "000101" => -- ANDN (AND Negada)
 					UCout <= "001001";
 					
-					when "010101" => -- ANDNcc
+					when "010101" => -- ANDNcc (AND Negada y modifica el ICC)
 					UCout <= "001010";
 			
-					when "000010" => -- OR
+					when "000010" => -- OR (Operacion OR)
 					UCout <= "001011";
 					
-					when "010010" => -- ORcc
+					when "010010" => -- ORcc (OR y modifica el ICC)
 					UCout <= "001100";
 			
-					when "000110" => -- ORN
+					when "000110" => -- ORN (Or Negado)
 					UCout <= "001101";
 					
-					when "010110" => -- ORNcc
+					when "010110" => -- ORNcc (Or Negado y modifica el ICC)
 					UCout <= "001110";
 			
-					when "000011" => -- XOR
+					when "000011" => -- XOR (Operacion XOR)
 					UCout <= "001111";
 					
-					when "010011" => -- XORcc
+					when "010011" => -- XORcc (XOR y modifica el ICC)
 					UCout <= "010000";
 				  
-					when "000111" => -- XORN
+					when "000111" => -- XORN (XOR Negado)
 					UCout <= "010001";
 					
-					when "010111" => -- XORNcc
+					when "010111" => -- XORNcc (XOR Negado y modifica el ICC)
 					UCout <= "010010";
 					
 					when others => -- Otras instrucciones

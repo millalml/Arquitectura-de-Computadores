@@ -22,8 +22,6 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
-use IEEE.STD_LOGIC_arith.ALL;
-use IEEE.NUMERIC_STD.ALL;
 
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
@@ -39,7 +37,7 @@ entity ALU is
            Mux_in : in  STD_LOGIC_VECTOR (31 downto 0);
            ALU_op : in  STD_LOGIC_VECTOR (5 downto 0); -- Reasignación de los valores, para saber más adelante que voy hacer.
            Carry : in STD_LOGIC;
-			  Alu_out : out  STD_LOGIC_VECTOR (31 downto 0):= (others => '0')); -- Es diferente a %g0, voy y lo escribo, lo guardo en el RF, de lo contrario no lo guardo.
+			  Alu_out : out  STD_LOGIC_VECTOR (31 downto 0)); -- Es diferente a %g0, voy y lo escribo, lo guardo en el RF, de lo contrario no lo guardo.
 end ALU;
 
 architecture ArqAlu of ALU is
@@ -104,8 +102,8 @@ begin
 			when "010010" => -- XNORcc
 				Alu_out <= Rs1in xnor Mux_in;
 		
-			when others => -- Otras instrucciones
-				Alu_out <= (others=>'0');
+			when others => -- Otras instrucciones.
+				Alu_out <= (others=>'0'); -- Completa los 32 bits con '0'.
 			
 		end case;
 

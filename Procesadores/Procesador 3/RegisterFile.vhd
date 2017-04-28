@@ -51,14 +51,14 @@ begin
 	
 begin
 	if(reset = '1')then
-		Rs1out <= (others=>'0');
-		Rs2out <= (others=>'0');
+		Rs1out <= (others=>'0'); -- Completa los 32 bits con '0'.
+		Rs2out <= (others=>'0'); -- Completa los 32 bits con '0'.
 			
 		Reg <= (others => x"00000000");
 		
 		else
-			Rs1out <= Reg(conv_integer(Rs1));
-			Rs2out <= Reg(conv_integer(Rs2));
+			Rs1out <= Reg(conv_integer(Rs1)); -- Me convierte en entero para poder buscar en la matriz.
+			Rs2out <= Reg(conv_integer(Rs2)); -- Me convierte en entero para poder buscar en la matriz.
 				
 		if(Rd  /= "000000")then
 			Reg(conv_integer(Rd)) <= DWR;

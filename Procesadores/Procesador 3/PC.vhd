@@ -40,7 +40,7 @@ end PC;
 architecture ArqPC of PC is
 
 begin
-		process(clk)
+		process(clk, reset, Entrada)
 			begin
 				if (rising_edge(clk))then
 					if(reset = '1')then
