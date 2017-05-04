@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="sparcv8.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="IntructionMemory.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Procesador2.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Procesador2.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Procesador2.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Procesador2_TB_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Procesador2_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Procesador2_TB_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="UC.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="WindowsManager_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="nPC_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1493936585" xil_pn:in_ck="-8940598630099684125" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1493936585">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU.vhd"/>
+      <outfile xil_pn:name="ALU_TB.vhd"/>
+      <outfile xil_pn:name="InstructionMemory_TB.vhd"/>
+      <outfile xil_pn:name="IntructionMemory.vhd"/>
+      <outfile xil_pn:name="Mux.vhd"/>
+      <outfile xil_pn:name="Mux_TB.vhd"/>
+      <outfile xil_pn:name="PC.vhd"/>
+      <outfile xil_pn:name="PC_TB.vhd"/>
+      <outfile xil_pn:name="PSR.vhd"/>
+      <outfile xil_pn:name="PSRModifier_TB.vhd"/>
+      <outfile xil_pn:name="PSR_Modifier.vhd"/>
+      <outfile xil_pn:name="PSR_TB.vhd"/>
+      <outfile xil_pn:name="Procesador2.vhd"/>
+      <outfile xil_pn:name="Procesador2_TB.vhd"/>
+      <outfile xil_pn:name="RegisterFile.vhd"/>
+      <outfile xil_pn:name="RegisterFile_TB.vhd"/>
+      <outfile xil_pn:name="SEU.vhd"/>
+      <outfile xil_pn:name="SEU_TB.vhd"/>
+      <outfile xil_pn:name="Sumador.vhd"/>
+      <outfile xil_pn:name="Sumador_TB.vhd"/>
+      <outfile xil_pn:name="UC.vhd"/>
+      <outfile xil_pn:name="UC_TB.vhd"/>
+      <outfile xil_pn:name="WindowsManager.vhd"/>
+      <outfile xil_pn:name="WindowsManager_TB.vhd"/>
+      <outfile xil_pn:name="nPC.vhd"/>
+      <outfile xil_pn:name="nPC_TB.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1493936585" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-1477828289723371249" xil_pn:start_ts="1493936585">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1493936585" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="7845820024083012817" xil_pn:start_ts="1493936585">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1493936585" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6665515355851000683" xil_pn:start_ts="1493936585">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1493936585" xil_pn:in_ck="-8940598630099684125" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1493936585">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU.vhd"/>
+      <outfile xil_pn:name="ALU_TB.vhd"/>
+      <outfile xil_pn:name="InstructionMemory_TB.vhd"/>
+      <outfile xil_pn:name="IntructionMemory.vhd"/>
+      <outfile xil_pn:name="Mux.vhd"/>
+      <outfile xil_pn:name="Mux_TB.vhd"/>
+      <outfile xil_pn:name="PC.vhd"/>
+      <outfile xil_pn:name="PC_TB.vhd"/>
+      <outfile xil_pn:name="PSR.vhd"/>
+      <outfile xil_pn:name="PSRModifier_TB.vhd"/>
+      <outfile xil_pn:name="PSR_Modifier.vhd"/>
+      <outfile xil_pn:name="PSR_TB.vhd"/>
+      <outfile xil_pn:name="Procesador2.vhd"/>
+      <outfile xil_pn:name="Procesador2_TB.vhd"/>
+      <outfile xil_pn:name="RegisterFile.vhd"/>
+      <outfile xil_pn:name="RegisterFile_TB.vhd"/>
+      <outfile xil_pn:name="SEU.vhd"/>
+      <outfile xil_pn:name="SEU_TB.vhd"/>
+      <outfile xil_pn:name="Sumador.vhd"/>
+      <outfile xil_pn:name="Sumador_TB.vhd"/>
+      <outfile xil_pn:name="UC.vhd"/>
+      <outfile xil_pn:name="UC_TB.vhd"/>
+      <outfile xil_pn:name="WindowsManager.vhd"/>
+      <outfile xil_pn:name="WindowsManager_TB.vhd"/>
+      <outfile xil_pn:name="nPC.vhd"/>
+      <outfile xil_pn:name="nPC_TB.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1493936598" xil_pn:in_ck="-8940598630099684125" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7868175217242699040" xil_pn:start_ts="1493936585">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Procesador2_TB_beh.prj"/>
+      <outfile xil_pn:name="Procesador2_TB_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1493936621" xil_pn:in_ck="-4557870124479159512" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-2097175111952264947" xil_pn:start_ts="1493936621">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Procesador2_TB_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+  </transforms>
+
+</generated_project>

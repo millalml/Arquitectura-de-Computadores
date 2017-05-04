@@ -2,14 +2,14 @@ Command line:
    Procesador2_TB_isim_beh.exe
      -simmode  gui
      -simrunnum  1
-     -socket  54571
+     -socket  54750
 
-Fri Apr 28 13:00:25 2017
+Fri Apr 28 13:26:48 2017
 
 
- Elaboration Time: 0.078125 sec
+ Elaboration Time: 0.109375 sec
 
- Current Memory Usage: 375.239 Meg
+ Current Memory Usage: 374.714 Meg
 
  Total Signals          : 66
  Total Nets             : 1773
@@ -23,9 +23,9 @@ Total Line Count : 105
 In process IntructionMemory.vhd:65 
  
 
- Total Simulation Time: 0.171875 sec
+ Total Simulation Time: 0.109375 sec
 
- Current Memory Usage: 689.811 Meg
+ Current Memory Usage: 374.714 Meg
 
-Fri Apr 28 13:01:14 2017
+Fri Apr 28 13:26:56 2017
 

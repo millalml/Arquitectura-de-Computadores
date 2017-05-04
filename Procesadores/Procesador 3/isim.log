@@ -21,5 +21,3 @@ ERROR: Index 4 out of bound 0 to 3.
 ERROR: In process IntructionMemory.vhd:65 
  
 INFO: Simulator is stopped.
-# run 100ns
-INFO: Simulator is stopped.

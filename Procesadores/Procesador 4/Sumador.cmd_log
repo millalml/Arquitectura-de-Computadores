@@ -1,0 +1,4 @@
+vhdtdtfi -prj sparcv8 -o "E:/Arquitectura Computadores/sparcv8/Sumador.vhi" -module Sumador -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Sumador.vhd 
+vhdtdtfi -prj sparcv8 -o "E:/Arquitectura Computadores/sparcv8/Sumador.vhi" -module Sumador -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Sumador.vhd 
+vhdtdtfi -prj sparcv8 -o "E:/Arquitectura Computadores/sparcv8/Sumador.vhi" -module Sumador -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Sumador.vhd 
+vhdtdtfi -prj sparcv8 -o "G:/Arquitectura Computadores/sparcv8/Sumador.vhi" -module Sumador -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Sumador.vhd 

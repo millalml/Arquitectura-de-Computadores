@@ -1,0 +1,2 @@
+vhdtdtfi -prj sparcv8 -o "G:/Arquitectura Computadores/Procesadores/Procesador 3/sparcv8/PSR.vhi" -module PSR -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work PSR.vhd 
+vhdtdtfi -prj sparcv8 -o "G:/Arquitectura Computadores/Procesadores/Procesador 4/sparcv8/PSR.vhi" -module PSR -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work PSR.vhd 

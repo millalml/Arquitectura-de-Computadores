@@ -1,0 +1,60 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to G:/Arquitectura Computadores/Procesadores/Procesador 4/sparcv8/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to G:/Arquitectura Computadores/Procesadores/Procesador 4/sparcv8/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "G:/Arquitectura Computadores/Procesadores/Procesador 4/sparcv8/Sumador.vhd" in Library work.
+Architecture arqsumador of Entity sumador is up to date.
+Compiling vhdl file "G:/Arquitectura Computadores/Procesadores/Procesador 4/sparcv8/nPC.vhd" in Library work.
+Architecture arqnpc of Entity npc is up to date.
+Compiling vhdl file "G:/Arquitectura Computadores/Procesadores/Procesador 4/sparcv8/PC.vhd" in Library work.
+Architecture arqpc of Entity pc is up to date.
+Compiling vhdl file "G:/Arquitectura Computadores/Procesadores/Procesador 4/sparcv8/IntructionMemory.vhd" in Library work.
+Architecture arqim of Entity intructionmemory is up to date.
+Compiling vhdl file "G:/Arquitectura Computadores/Procesadores/Procesador 4/sparcv8/UC.vhd" in Library work.
+Architecture arquc of Entity uc is up to date.
+Compiling vhdl file "G:/Arquitectura Computadores/Procesadores/Procesador 4/sparcv8/RegisterFile.vhd" in Library work.
+Architecture arqrf of Entity registerfile is up to date.
+Compiling vhdl file "G:/Arquitectura Computadores/Procesadores/Procesador 4/sparcv8/Mux.vhd" in Library work.
+Architecture arqmux of Entity mux is up to date.
+Compiling vhdl file "G:/Arquitectura Computadores/Procesadores/Procesador 4/sparcv8/SEU.vhd" in Library work.
+Architecture arqseu of Entity seu is up to date.
+Compiling vhdl file "G:/Arquitectura Computadores/Procesadores/Procesador 4/sparcv8/ALU.vhd" in Library work.
+Architecture arqalu of Entity alu is up to date.
+Compiling vhdl file "G:/Arquitectura Computadores/Procesadores/Procesador 4/sparcv8/PSR_Modifier.vhd" in Library work.
+Architecture arq_psrmodifier of Entity psr_modifier is up to date.
+Compiling vhdl file "G:/Arquitectura Computadores/Procesadores/Procesador 4/sparcv8/PSR.vhd" in Library work.
+Architecture arq_psr of Entity psr is up to date.
+Compiling vhdl file "G:/Arquitectura Computadores/Procesadores/Procesador 4/sparcv8/WindowsManager.vhd" in Library work.
+Entity <WindowsManager> compiled.
+Entity <WindowsManager> (Architecture <Arq_WindowsManager>) compiled.
+Compiling vhdl file "G:/Arquitectura Computadores/Procesadores/Procesador 4/sparcv8/Procesador2.vhd" in Library work.
+Entity <procesador2> compiled.
+Entity <Procesador2> (Architecture <Arq_Procesador2>) compiled.
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.82 secs
+ 
+--> 
+
+Total memory usage is 223120 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

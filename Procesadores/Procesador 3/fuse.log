@@ -38,7 +38,8 @@ Compiling architecture arq_psr of entity PSR [psr_default]
 Compiling architecture arq_procesador2 of entity Procesador2 [procesador2_default]
 Compiling architecture behavior of entity procesador2_tb
 Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
 Compiled 30 VHDL Units
 Built simulation executable G:/Arquitectura Computadores/Procesadores/Procesador 3/sparcv8/Procesador2_TB_isim_beh.exe
-Fuse Memory Usage: 34868 KB
+Fuse Memory Usage: 34884 KB
 Fuse CPU Usage: 968 ms
