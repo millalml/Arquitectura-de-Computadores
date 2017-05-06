@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "G:/Arquitectura Computadores/Procesadores/Procesador 4/sparcv8/Procesador2_TB_isim_beh.exe" -prj "G:/Arquitectura Computadores/Procesadores/Procesador 4/sparcv8/Procesador2_TB_beh.prj" "work.Procesador2_TB" 
+-intstyle "ise" -incremental -o "G:/Arquitectura Computadores/Procesadores/Procesador 4 Funcionando/sparcv8/Procesador2_TB_isim_beh.exe" -prj "G:/Arquitectura Computadores/Procesadores/Procesador 4 Funcionando/sparcv8/Procesador2_TB_beh.prj" "work.Procesador2_TB" 

@@ -5,11 +5,5 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="1196" delta="unknown" >"G:/Arquitectura Computadores/Procesadores/Procesador 4/sparcv8/IntructionMemory.vhd" Line 55: Readline called past the end of file <arg fmt="%s" index="1">romfile</arg>
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="1242" delta="unknown" >"N:/P.20131013/rtf/vhdl/src/ieee/std_logic_arith.vhd" Line 2415: <arg fmt="%s" index="1">Warning</arg>: <arg fmt="%s" index="2">&quot;CONV_INTEGER: There is an &apos;U&apos;|&apos;X&apos;|&apos;W&apos;|&apos;Z&apos;|&apos;-&apos; in an arithmetic operand, and it has been converted to 0.&quot;</arg>
-</msg>
-
 </messages>
 

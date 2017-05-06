@@ -12,6 +12,8 @@
 --					 a la ALU con el CARRY.
 --					 Donde el CWP ingresa al WM y a su vez devuelve una nueva señal
 --					 del CWP, la cual igresa al PSR.
+--					 La salida CWP: Esta entrada me indica en que ventana estoy y envia
+--					 la señal al WM.
 --
 -- Dependencies: 
 --
@@ -36,32 +38,25 @@ entity PSR is
     Port ( clk : in  STD_LOGIC; -- Se utiliza con los flancos de subida, es sincrono.
            reset : in  STD_LOGIC;
            icc_PSRM : in  STD_LOGIC_VECTOR (3 downto 0);
-			  NuevoCWP : in  STD_LOGIC;
+			  NuevoCWP : in  STD_LOGIC; -- Va al Windows Manager.
            ALU_acarreo : out  STD_LOGIC; -- Va a la ALU.
-			  CWP : out  STD_LOGIC);
+			  CWP : out  STD_LOGIC); -- Un contador que identifica la ventana actual en los registros.
+											 -- Disminuye el CWP y guarda (Save), e incrementa en instrucciones (Restore).
 end PSR;
 
 architecture Arq_PSR of PSR is
 
 begin
 
-	process(clk)
-		begin
-		if(rising_edge(clk))then
-			if(reset = '1') then
-				CWP<= '0';
-				ALU_acarreo<= '0';
-			else
-				if NuevoCWP= '1' then
-					CWP<= '1';
-				else
-					CWP<= '0';
-				end if;
-				if icc_PSRM(0) = '1' then
-					ALU_acarreo<= '1';
-				else 
-					ALU_acarreo<= '0';
-				end if;
+	process(clk, reset, icc_PSRM)
+	begin
+		if(reset = '1') then
+			ALU_acarreo <= '0'; 
+			CWP <= '0'; 
+		else
+			if(rising_edge(clk)) then
+				ALU_acarreo <= icc_PSRM(0);
+				CWP <= NuevoCWP; 
 			end if;
 		end if;
 	end process;

@@ -22,9 +22,6 @@
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.numeric_std.all;
-use IEEE.std_logic_unsigned.all;
-use std.textio.all;
 
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
@@ -80,7 +77,7 @@ begin
 				--SUBcc or SUBxcc
 				if ALU_op = "000101" or ALU_op = "000110" then
 					icc_PSR(3) <= Resultado_ALU(31);
-					if (conv_integer(Resultado_ALU)=0)then 
+					if Resultado_ALU = "00000000000000000000000000000000" then 
 						icc_PSR(2) <= '1';
 					else
 						icc_PSR(2) <= '0';

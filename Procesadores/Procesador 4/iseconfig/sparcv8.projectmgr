@@ -9,13 +9,13 @@
          <ClosedNodesVersion>2</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Inst_WindowsManager - WindowsManager - Arq_WindowsManager (G:/Arquitectura Computadores/Procesadores/Procesador 4/sparcv8/WindowsManager.vhd)</SelectedItem>
+         <SelectedItem>Inst_WindowsManager - WindowsManager - Arq_WindowsManager (D:/Usuarios/Fray Martin/Documents/GitHub/Arquitectura-de-Computadores/Procesadores/Procesador 4/WindowsManager.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000240000000020000000000000000000000000200000064ffffffff000000810000000300000002000002400000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Inst_WindowsManager - WindowsManager - Arq_WindowsManager (G:/Arquitectura Computadores/Procesadores/Procesador 4/sparcv8/WindowsManager.vhd)</CurrentItem>
+      <CurrentItem>Inst_WindowsManager - WindowsManager - Arq_WindowsManager (D:/Usuarios/Fray Martin/Documents/GitHub/Arquitectura-de-Computadores/Procesadores/Procesador 4/WindowsManager.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -63,13 +63,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Check Syntax</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Check Syntax</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
@@ -108,15 +108,17 @@
          <ClosedNode>/PSR_TB - behavior D:|Usuarios|Fray Martin|Documents|UTP|Arquitectura de Computadores|Procesadores|Procesador 3|sparcv8|PSR_TB.vhd</ClosedNode>
          <ClosedNode>/PSR_TB - behavior E:|Arquitectura Computadores|Procesadores|Procesador 4|sparcv8|PSR_TB.vhd</ClosedNode>
          <ClosedNode>/PSR_TB - behavior G:|Arquitectura Computadores|Procesadores|Procesador 3|sparcv8|PSR_TB.vhd</ClosedNode>
+         <ClosedNode>/PSR_TB - behavior G:|Arquitectura Computadores|Procesadores|Procesador 4 Funcionando|sparcv8|PSR_TB.vhd</ClosedNode>
          <ClosedNode>/PSR_TB - behavior G:|Arquitectura Computadores|Procesadores|Procesador 4|sparcv8|PSR_TB.vhd</ClosedNode>
          <ClosedNode>/Procesador2 - ArqProcesador2 E:|Arquitectura Computadores|sparcv8|Procesador2.vhd</ClosedNode>
          <ClosedNode>/Procesador2 - Arq_Procesador2 G:|Arquitectura Computadores|sparcv8|Procesador2.vhd</ClosedNode>
-         <ClosedNode>/Procesador2_TB - behavior E:|Arquitectura Computadores|Procesadores|Procesador 4|sparcv8|Procesador2_TB.vhd</ClosedNode>
+         <ClosedNode>/Procesador2_TB - behavior G:|Arquitectura Computadores|Procesadores|Procesador 4 Funcionando|sparcv8|Procesador2_TB.vhd</ClosedNode>
          <ClosedNode>/RegisterFile_TB - behavior D:|Usuarios|Fray Martin|Documents|UTP|Arquitectura de Computadores|Procesadores|Procesador 3|sparcv8|RegisterFile_TB.vhd</ClosedNode>
          <ClosedNode>/RegisterFile_TB - behavior E:|Arquitectura Computadores|Procesadores|Procesador 4|sparcv8|RegisterFile_TB.vhd</ClosedNode>
          <ClosedNode>/RegisterFile_TB - behavior E:|Arquitectura Computadores|Procesadores|Procesador2 Con Conexiones|sparcv8|RegisterFile_TB.vhd</ClosedNode>
          <ClosedNode>/RegisterFile_TB - behavior E:|Arquitectura Computadores|sparcv8|RegisterFile_TB.vhd</ClosedNode>
          <ClosedNode>/RegisterFile_TB - behavior G:|Arquitectura Computadores|Procesadores|Procesador 3|sparcv8|RegisterFile_TB.vhd</ClosedNode>
+         <ClosedNode>/RegisterFile_TB - behavior G:|Arquitectura Computadores|Procesadores|Procesador 4 Funcionando|sparcv8|RegisterFile_TB.vhd</ClosedNode>
          <ClosedNode>/RegisterFile_TB - behavior G:|Arquitectura Computadores|Procesadores|Procesador 4|sparcv8|RegisterFile_TB.vhd</ClosedNode>
          <ClosedNode>/RegisterFile_TB - behavior G:|Arquitectura Computadores|sparcv8|RegisterFile_TB.vhd</ClosedNode>
          <ClosedNode>/SEU_TB - behavior D:|Usuarios|Fray Martin|Documents|UTP|Arquitectura de Computadores|Procesadores|Procesador 3|sparcv8|SEU_TB.vhd</ClosedNode>
@@ -124,6 +126,7 @@
          <ClosedNode>/SEU_TB - behavior E:|Arquitectura Computadores|Procesadores|Procesador2 Con Conexiones|sparcv8|SEU_TB.vhd</ClosedNode>
          <ClosedNode>/SEU_TB - behavior E:|Arquitectura Computadores|sparcv8|SEU_TB.vhd</ClosedNode>
          <ClosedNode>/SEU_TB - behavior G:|Arquitectura Computadores|Procesadores|Procesador 3|sparcv8|SEU_TB.vhd</ClosedNode>
+         <ClosedNode>/SEU_TB - behavior G:|Arquitectura Computadores|Procesadores|Procesador 4 Funcionando|sparcv8|SEU_TB.vhd</ClosedNode>
          <ClosedNode>/SEU_TB - behavior G:|Arquitectura Computadores|Procesadores|Procesador 4|sparcv8|SEU_TB.vhd</ClosedNode>
          <ClosedNode>/SEU_TB - behavior G:|Arquitectura Computadores|sparcv8|SEU_TB.vhd</ClosedNode>
          <ClosedNode>/Sumador_TB - behavior D:|Usuarios|Fray Martin|Documents|UTP|Arquitectura de Computadores|Procesadores|Procesador 3|sparcv8|Sumador_TB.vhd</ClosedNode>
@@ -131,14 +134,18 @@
          <ClosedNode>/Sumador_TB - behavior E:|Arquitectura Computadores|Procesadores|Procesador2 Con Conexiones|sparcv8|Sumador_TB.vhd</ClosedNode>
          <ClosedNode>/Sumador_TB - behavior E:|Arquitectura Computadores|sparcv8|Sumador_TB.vhd</ClosedNode>
          <ClosedNode>/Sumador_TB - behavior G:|Arquitectura Computadores|Procesadores|Procesador 3|sparcv8|Sumador_TB.vhd</ClosedNode>
+         <ClosedNode>/Sumador_TB - behavior G:|Arquitectura Computadores|Procesadores|Procesador 4 Funcionando|sparcv8|Sumador_TB.vhd</ClosedNode>
          <ClosedNode>/Sumador_TB - behavior G:|Arquitectura Computadores|Procesadores|Procesador 4|sparcv8|Sumador_TB.vhd</ClosedNode>
          <ClosedNode>/Sumador_TB - behavior G:|Arquitectura Computadores|sparcv8|Sumador_TB.vhd</ClosedNode>
          <ClosedNode>/UC_TB - behavior D:|Usuarios|Fray Martin|Documents|UTP|Arquitectura de Computadores|Procesadores|Procesador 3|sparcv8|UC_TB.vhd</ClosedNode>
          <ClosedNode>/UC_TB - behavior E:|Arquitectura Computadores|Procesadores|Procesador 4|sparcv8|UC_TB.vhd</ClosedNode>
          <ClosedNode>/UC_TB - behavior E:|Arquitectura Computadores|Procesadores|Procesador2 Con Conexiones|sparcv8|UC_TB.vhd</ClosedNode>
          <ClosedNode>/UC_TB - behavior G:|Arquitectura Computadores|Procesadores|Procesador 3|sparcv8|UC_TB.vhd</ClosedNode>
+         <ClosedNode>/UC_TB - behavior G:|Arquitectura Computadores|Procesadores|Procesador 4 Funcionando|sparcv8|UC_TB.vhd</ClosedNode>
          <ClosedNode>/UC_TB - behavior G:|Arquitectura Computadores|Procesadores|Procesador 4|sparcv8|UC_TB.vhd</ClosedNode>
          <ClosedNode>/UC_TB - behavior G:|Arquitectura Computadores|sparcv8|UC_TB.vhd</ClosedNode>
+         <ClosedNode>/WindowsManager_TB - behavior E:|Arquitectura Computadores|Procesadores|Procesador 4|sparcv8|WindowsManager_TB.vhd</ClosedNode>
+         <ClosedNode>/WindowsManager_TB - behavior G:|Arquitectura Computadores|Procesadores|Procesador 4 Funcionando|sparcv8|WindowsManager_TB.vhd</ClosedNode>
          <ClosedNode>/WindowsManager_TB - behavior G:|Arquitectura Computadores|Procesadores|Procesador 4|sparcv8|WindowsManager_TB.vhd</ClosedNode>
          <ClosedNode>/nPC_TB - behavior D:|Usuarios|Fray Martin|Documents|UTP|Arquitectura de Computadores|Procesadores|Procesador 3|sparcv8|nPC_TB.vhd</ClosedNode>
          <ClosedNode>/nPC_TB - behavior E:|Arquitectura Computadores|Procesadores|Procesador 4|sparcv8|nPC_TB.vhd</ClosedNode>
@@ -149,13 +156,13 @@
          <ClosedNode>/nPC_TB - behavior G:|Arquitectura Computadores|sparcv8|nPC_TB.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Procesador2_TB - behavior (G:/Arquitectura Computadores/Procesadores/Procesador 4/sparcv8/Procesador2_TB.vhd)</SelectedItem>
+         <SelectedItem>nPC_TB - behavior (G:/Arquitectura Computadores/Procesadores/Procesador 4 Funcionando/sparcv8/nPC_TB.vhd)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >3</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >2</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000254000000020000000000000000000000000200000064ffffffff000000810000000300000002000002540000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000191000000020000000000000000000000000200000064ffffffff000000810000000300000002000001910000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Procesador2_TB - behavior (G:/Arquitectura Computadores/Procesadores/Procesador 4/sparcv8/Procesador2_TB.vhd)</CurrentItem>
+      <CurrentItem>nPC_TB - behavior (G:/Arquitectura Computadores/Procesadores/Procesador 4 Funcionando/sparcv8/nPC_TB.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -178,13 +185,13 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="ManualCompile" >
       <ClosedNodes>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2017-05-04T17:24:44</DateModified>
+  <DateModified>2017-05-05T23:43:18</DateModified>
   <ModuleName>Procesador2</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>G:/Arquitectura Computadores/Procesadores/Procesador 4/sparcv8/iseconfig/Procesador2.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>G:/Arquitectura Computadores/Procesadores/Procesador 4/sparcv8\</ImplementationReportsDirectory>
+  <SavedFilePath>D:/Usuarios/Fray Martin/Documents/GitHub/Arquitectura-de-Computadores/Procesadores/Procesador 4/iseconfig/Procesador2.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>D:/Usuarios/Fray Martin/Documents/GitHub/Arquitectura-de-Computadores/Procesadores/Procesador 4\</ImplementationReportsDirectory>
   <DateInitialized>2017-04-13T09:21:56</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

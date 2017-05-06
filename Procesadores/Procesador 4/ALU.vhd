@@ -102,6 +102,12 @@ begin
 				
 			when "010010" => -- XNORcc
 				Alu_out <= Rs1in xnor Mux_in;
+				
+			when "010011" => -- SAVE
+				Alu_out <= Rs1in + Mux_in;
+				
+			when "010100" => -- RESTORE
+				Alu_out <= Rs1in + Mux_in;
 		
 			when others => -- Otras instrucciones.
 				Alu_out <= (others=>'0'); -- Completa los 32 bits con '0'.

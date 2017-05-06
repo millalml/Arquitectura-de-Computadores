@@ -1,7 +1,7 @@
---------------------------------------------------------------------------------
--- Company: 
--- Engineer:
---
+----------------------------------------------------------------------------------
+-- Company: UTP
+-- Engineer: David Escamilla Gutiérrez
+-- 
 -- Create Date:   16:33:26 05/04/2017
 -- Design Name:   
 -- Module Name:   G:/Arquitectura Computadores/Procesadores/Procesador 4/sparcv8/WindowsManager_TB.vhd
@@ -96,26 +96,26 @@ BEGIN
 		Rd <= "10010";
 		CWP  <= '0';
 		op <= "10";
-		op3 <="000000";
+		op3 <="111101";
 		
-		wait for 100 ns;
-		CWP <= '1';
+		--wait for 100 ns;
+		--CWP <= '1';
 		
-		wait for 100 ns;
-		Rs1 <= "11000";
-		Rs2 <= "11001";
-		Rd <= "11010";
+		--wait for 100 ns;
+		--Rs1 <= "11000";
+		--Rs2 <= "11001";
+		--Rd <= "11010";
 		
-		wait for 100 ns;	
-		CWP <= '0';
+		--wait for 100 ns;	
+		--CWP <= '0';
 		
-		wait for 100 ns;
-		Rs1 <= "00000";
-		Rs2 <= "00001";
-		Rd <= "00010";
+		--wait for 100 ns;
+		--Rs1 <= "00000";
+		--Rs2 <= "00001";
+		--Rd <= "00010";
 		
-		wait for 20 ns;
-		CWP <= '1';
+		--wait for 20 ns;
+		--CWP <= '1';
 		
       wait;
    end process;
